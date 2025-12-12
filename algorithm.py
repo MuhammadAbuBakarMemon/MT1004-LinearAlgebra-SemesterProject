@@ -2,10 +2,7 @@
 from utils import print_matrix
 
 def solve_gauss_jordan(matrix, n_vars):
-    """
-    REQ: Perform selected method step by step.
-    REQ: Code must be your own implementation (No NumPy).
-    """
+    
     rows = len(matrix)
     cols = len(matrix[0])
     

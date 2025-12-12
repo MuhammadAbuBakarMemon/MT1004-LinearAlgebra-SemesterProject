@@ -2,9 +2,7 @@
 import sys
 
 def print_group_info():
-    """
-    REQ B.1: Video must show names of group members.
-    """
+    
 
     print("\n")
     print("LINEAR ALGEBRA PROJECT - GAUSS-JORDAN SOLVER")
@@ -17,9 +15,7 @@ def print_group_info():
 
 
 def print_matrix(matrix, step_name=""):
-    """
-    REQ: Show intermediate matrices after each row operation.
-    """
+    
     print(f"\n--- {step_name} ---")
     rows = len(matrix)
     for i in range(rows):
@@ -30,9 +26,7 @@ def print_matrix(matrix, step_name=""):
     print("-" * 40)
 
 def get_input_matrix():
-    """
-    REQ: Take input from the user (Equations & Matrix).
-    """
+    
     print("=== Linear Equation Solver (Gauss-Jordan) ===")
     try:
         n_eq = int(input("Enter number of equations: "))

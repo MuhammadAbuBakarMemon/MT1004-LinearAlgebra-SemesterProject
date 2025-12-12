@@ -2,9 +2,7 @@
 
 
 def print_parametric_solution(matrix, pivot_cols, n_vars):
-    """
-    REQ: If infinite: solution in parameter form.
-    """
+    
     free_vars = []
     for j in range(n_vars):
         if j not in pivot_cols:
@@ -51,11 +49,7 @@ def print_parametric_solution(matrix, pivot_cols, n_vars):
                     print(f"x{j+1} = {' '.join(rhs)}")
 
 def classify_and_print_solution(matrix, pivot_cols, n_vars):
-    """
-    REQ: Correctly identify all three cases.
-    REQ: If unique: numeric solution.
-    REQ: If no solution: clear message.
-    """
+    
     rows = len(matrix)
     
     print("\n=== FINAL SOLUTION CLASSIFICATION ===")
