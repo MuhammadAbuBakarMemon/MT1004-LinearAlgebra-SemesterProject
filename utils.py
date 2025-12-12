@@ -1,4 +1,3 @@
-
 import sys
 
 def print_group_info():
